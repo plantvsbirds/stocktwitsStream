@@ -1,0 +1,23 @@
+{
+  "name": "xq-getunitdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test",
+    "watch": "nodemon index",
+    "start": "node index"
+  },
+  "author": "Hong",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mongoose": "^4.4.6",
+    "phantom": "^2.0.4",
+    "phantomjs-promise": "0.0.1",
+    "prettyjson": "^1.1.3",
+    "promised-mongo": "^1.2.0",
+    "proxy-server": "^1.2.0",
+    "taim": "^1.0.2",
+    "then-request": "^2.1.1"
+  }
+}
